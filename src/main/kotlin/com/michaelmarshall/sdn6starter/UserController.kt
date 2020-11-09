@@ -13,7 +13,7 @@ class UserController(
         val userRepo: UserRepository
 ){
 
-    @RequestMapping("/create/{name}")
+    @GetMapping("/create/{name}")
     suspend fun create(@PathVariable("name") name: String): String{
         val user = User(name)
         userRepo.save(user).awaitFirstOrNull()
