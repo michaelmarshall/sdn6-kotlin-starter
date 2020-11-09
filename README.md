@@ -1,5 +1,5 @@
 # sdn6-kotlin-starter
-Starter template that use SDN6, Kotlin corountines, reactor, and an embedded Neo4j v4 server 
+Starter template that uses SDN6, Kotlin corountines, reactor, and an embedded Neo4j v4 server 
 
 Sprint Data Neo4j 6  
 Kotlin 1.4.10  
